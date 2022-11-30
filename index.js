@@ -20,5 +20,5 @@ app.use('/api/blogs', require("./routes/blogs"))
 
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+  console.log(`Application running on PORT: ${port}`);
 });
